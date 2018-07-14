@@ -1,7 +1,7 @@
 var friendsArray = [
     {
         name: 'Auston',
-		photo: '',
+		photo: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8479318.jpg',
 		scores: [
 			'1',
 			'5',
@@ -18,7 +18,7 @@ var friendsArray = [
     
     {
         name: 'John',
-        photo: '',
+        photo: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8475166.jpg',
         scores: [
             '2',
             '4',
@@ -35,7 +35,7 @@ var friendsArray = [
 
     {
         name: 'Mitch',
-        photo: '',
+        photo: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8478483.jpg',
         scores: [
             '1',
             '2',
@@ -52,7 +52,7 @@ var friendsArray = [
 
     {
         name: 'Willy',
-        photo: '',
+        photo: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8477939.jpg',
         scores: [
             '5',
             '4',
@@ -69,7 +69,7 @@ var friendsArray = [
 
     {
         name: 'Nazem',
-        photo: '',
+        photo: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8475172.jpg',
         scores: [
             '1',
             '1',
@@ -86,7 +86,7 @@ var friendsArray = [
 
     {
         name: 'Jake',
-        photo: '',
+        photo: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8474581.jpg',
         scores: [
             '5',
             '5',
@@ -103,7 +103,7 @@ var friendsArray = [
 
     {
         name: 'Morgan',
-        photo: '',
+        photo: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476853.jpg',
         scores: [
             '1',
             '2',
@@ -120,7 +120,7 @@ var friendsArray = [
 
     {
         name: 'Travis',
-        photo: '',
+        photo: 'http://assets.leaguestat.com/ahl/240x240/6381.jpg',
         scores: [
             '2',
             '2',
@@ -137,7 +137,7 @@ var friendsArray = [
 
     {
         name: 'kasperi',
-        photo: '',
+        photo: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8477953.jpg',
         scores: [
             '1',
             '1',
@@ -154,7 +154,7 @@ var friendsArray = [
 
     {
         name: 'andreas',
-        photo: '',
+        photo: 'http://assets.leaguestat.com/ahl/240x240/6382.jpg',
         scores: [
             '3',
             '4',
@@ -173,3 +173,5 @@ var friendsArray = [
 
     
 ];
+
+module.exports = friendsArray;
