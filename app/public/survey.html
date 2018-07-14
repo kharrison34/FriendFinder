@@ -143,7 +143,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">Your New Best Friend</h1>
+                        <h3 class="modal-title">Your Friend</h1>
                     </div>
                     <div class="modal-body">
                         <h2 id="bestFriend"></h2>
@@ -169,7 +169,7 @@
     <script type="text/javascript">
         $("#submitBtn").on("click", function(event) {
             event.preventDefault();
-            // Form validation
+           
             var valid = true;
             if($("#name").val() === "" || $("#photo").val() === "") {
                 valid = false;
@@ -194,14 +194,14 @@
                     ]
                 };
                 var currentURL = window.location.origin;
-                // Ajax call for receiving response after POST req
+             
                 $.post(currentURL + "/api/friends", newUser, function(data) {
                     $("#bestFriend").text(data.name);
                     $("#bestFriendPhoto").attr("src", data.photo);
                     $("#bestFriendModal").modal("toggle");
                 });
             } else {
-                // If a required field is missing, show alert
+               
                 alert("Survey is incomplete!");
             }
         });
